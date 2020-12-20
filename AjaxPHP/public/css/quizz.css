@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+#person {
+    float: right;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+main {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    min-height: 100vh;
+    background: #283552;
+    color: #dfe4ea;
+}
+  
+    h1 {
+      margin-bottom: 3rem;
+      text-transform: uppercase;
+      font-size: 3rem;
+      text-align: center;
+  
+
+    }
+    h3 {
+      color: #ffa502;
+      font-size: 1.5rem;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 3rem auto 3rem;
+        width: 500px;
+        }
+
+      
+    button {
+        flex: 1 0 45%;
+        width: 200px;
+        height: 160px;
+        cursor: pointer;
+        border: none;
+        margin: .4rem;
+        background: #dfe4ea;
+        border-radius: 20px;
+    }
+    p {
+        font-size: 1.3rem;
+        margin: 0;
+        }
+    #progress {
+      font-size: 1.3rem;
+      color: #ffa502;
+    }
+  
